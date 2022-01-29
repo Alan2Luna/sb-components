@@ -37,7 +37,7 @@
   },
   "scripts": {
     "start": "start-storybook -p 6006",
-    "build": "npm run clean && tsc && npm copy-files",
+    "build": "npm run clean && tsc && npm run copy-files",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "clean": "rimraf dist/",
